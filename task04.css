@@ -1,0 +1,92 @@
+body {
+    margin: 50px 50px;
+    height: 1000px;
+}
+
+#alaotsikko {
+    text-align: center;
+}
+
+.kehys {
+    border: 2px solid lightblue;
+    height: 650px;
+    width: 90%;
+    position:absolute;
+    top:120px;
+    left: 10%;
+    z-index: -1;
+}
+
+.tausta {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.tila {
+    height:150px;
+    width: 100%;
+    position:relative;
+}
+
+.vasen {
+    width:45%;
+    height: 350px;
+    position:absolute;
+    left: 5%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+    .kone {
+        width: 30%;
+        height: 350px;
+        position:relative;
+        float:left;
+        box-sizing: border-box;
+    }
+
+    .teksti {
+        width: 70%;
+        height: 350px;
+        border-right: 5px solid black;
+        position:relative;
+        float:right;
+        text-align: left;
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+
+.oikea {
+    width: 45%;
+    height: 350px;
+    position:absolute;
+    right: 5%;
+    box-sizing: border-box;
+}
+
+    .lista1 {
+        width: 35%;
+        height: 350px;
+        position:relative;
+        float:left;
+        box-sizing: border-box;
+    }
+
+    .lista2 {
+        width: 35%;
+        height: 350px;
+        position:relative;
+        float:right;
+        right:20%;
+        box-sizing: border-box;
+    }
+
+.otsikko {
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin: 0 70px;
+    height: 40px;
+}
